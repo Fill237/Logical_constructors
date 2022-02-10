@@ -11,9 +11,9 @@ public class Main {
         System.out.println("Среднее арифмитическое чисел равно: " + summ);
         double summ1 = Math.floor(summ/2);                                  // округляем в меньшую сторону
         int avr = (int) summ1;                                              // double to int
-        if (avr > 3){
-            System.out.println("Программа выполнена корректно");
-        } else
+            if (avr > 3){
+                System.out.println("Программа выполнена корректно");
+            } else
             System.out.println("Попробуйте ввести другие значения");
     }
 }
